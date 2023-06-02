@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poiret+One&family=Tangerine&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poiret One", cursive;
+}
+.element-class {
+  background-image: url("../public/assests/images/pre12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.special-class {
+  background-image: url("../public/assests/images/pre12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about-class {
+  background-image: url("../public/assests/images/pre12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.footer-class {
+  background-image: url("../public/assests/images/pre5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+input {
+  border-bottom: 2px solid rgb(225, 225, 225);
+  letter-spacing: 0.05em;
+}
+input:focus {
+  border-bottom: 1px solid black;
+  transition: 1s;
+}
+textarea {
+  border-bottom: 2px solid rgb(225, 225, 225);
+}
+textarea:focus {
+  border-bottom: 1px solid black;
+  transition: 1s;
+}
